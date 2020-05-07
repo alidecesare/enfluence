@@ -1,0 +1,377 @@
+@font-face {
+  font-family: 'bosque';
+  src: url('BOSQUE.otf');
+
+  font-family: 'happytime';
+  src: url('HappyTime.otf');
+
+  font-family: 'luxerie';
+  src: url('Luxerie.otf');
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 5vmin;
+}
+
+.header {
+  font-family: 'bosque';
+  font-size: 8em;
+  grid-column: 3 / 5;
+}
+
+.sub-header {
+  grid-column: 4;
+}
+
+.quote1 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 2 / 4;
+}
+.quote-credit1 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 3;
+  margin-top: -5vmin;
+}
+
+.quote2 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 3 / 6;
+}
+.quote-credit2 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 5;
+  margin-top: -5vmin;
+}
+
+.quote3 {
+  font-family: 'bosque';
+  font-size: 5em;
+  grid-column: 1 / 4;
+}
+.quote-credit3 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 3;
+  margin-top: -5vmin;
+}
+
+.quote4 {
+  font-family: 'bosque';
+  font-size: 7em;
+  grid-column: 4 / 7;
+}
+.quote-credit4 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 6;
+  margin-top: -10vmin;
+}
+
+.quote5 {
+  font-family: 'bosque';
+  font-size: 5em;
+  grid-column: 2 / 5;
+}
+.quote-credit5 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 4;
+  margin-top: -10vmin;
+}
+
+.quote6 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 4;
+}
+.quote-credit6 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 3;
+  margin-top: -5vmin;
+}
+
+.quote7 {
+  font-family: 'bosque';
+  font-size: 5em;
+  grid-column: 3 / 7;
+}
+.quote-credit7 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 6;
+  margin-top: -5vmin;
+}
+
+.quote8 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 4;
+}
+.quote-credit8 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 3;
+  margin-top: -5vmin;
+}
+
+.quote9 {
+  font-family: 'bosque';
+  font-size: 5em;
+  grid-column: 2 / 6;
+}
+.quote-credit9 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 5;
+  margin-top: -5vmin;
+}
+
+.quote10 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 3;
+}
+.quote-credit10 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 2;
+  margin-top: -5vmin;
+}
+
+.quote11 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 2 / 4;
+}
+.quote-credit11 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 3;
+  margin-top: -5vmin;
+}
+
+.quote12 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 5 / 7;
+}
+.quote-credit12 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 6;
+  margin-top: -5vmin;
+}
+
+.quote13 {
+  font-family: 'bosque';
+  font-size: 7em;
+  grid-column: 1 / 6;
+}
+.quote-credit13 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 5;
+  margin-top: -10vmin;
+}
+
+.quote14 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 4;
+}
+.quote-credit14 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 3;
+  margin-top: -5vmin;
+}
+
+.quote15 {
+  font-family: 'bosque';
+  font-size: 5em;
+  grid-column: 4 / 7;
+}
+.quote-credit15 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 6;
+  margin-top: -5vmin;
+}
+
+.quote16 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 3 / 5;
+}
+.quote-credit16 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 4;
+  margin-top: -5vmin;
+}
+
+.quote17 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 3;
+}
+.quote-credit17 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 2;
+  margin-top: -5vmin;
+}
+
+.quote18 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 2 / 4;
+}
+.quote-credit18 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 3;
+  margin-top: -5vmin;
+}
+
+.quote19 {
+  font-family: 'bosque';
+  font-size: 9em;
+  grid-column: 5 / 7;
+}
+.quote-credit19 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 6;
+  margin-top: -15vmin;
+}
+
+.quote20 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 3;
+}
+.quote-credit20 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 2;
+  margin-top: -5vmin;
+}
+
+.quote21 {
+  font-family: 'bosque';
+  font-size: 5em;
+  grid-column: 2 / 6;
+}
+.quote-credit21 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 5;
+  margin-top: -5vmin;
+}
+
+.quote22 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 3;
+}
+.quote-credit22 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 2;
+  margin-top: -5vmin;
+}
+
+.quote23 {
+  font-family: 'bosque';
+  font-size: 5em;
+  grid-column: 3 / 6;
+}
+.quote-credit23 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 5;
+  margin-top: -5vmin;
+}
+
+.quote24 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 5 / 7;
+}
+.quote-credit24 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 6;
+  margin-top: -5vmin;
+}
+
+.quote25 {
+  font-family: 'bosque';
+  font-size: 7em;
+  grid-column: 2 / 6;
+}
+.quote-credit25 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 5;
+  margin-top: -5vmin;
+}
+
+.quote26 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 3;
+}
+.quote-credit26 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 2;
+  margin-top: -5vmin;
+}
+
+.quote27 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 5 / 7;
+}
+.quote-credit27 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 6;
+  margin-top: -5vmin;
+}
+
+.quote28 {
+  font-family: 'bosque';
+  font-size: 4em;
+  grid-column: 1 / 3;
+}
+.quote-credit28 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 2;
+  margin-top: -5vmin;
+}
+
+.quote29 {
+  font-family: 'bosque';
+  font-size: 5em;
+  grid-column: 3 / 5;
+  margin-top: 15vmin;
+}
+.quote-credit29 {
+  font-family: 'happytime';
+  font-size: 1.5em;
+  grid-column: 4;
+  margin-top: -5vmin;
+}
