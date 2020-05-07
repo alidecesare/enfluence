@@ -11,8 +11,13 @@
 }
 
 @keyframes slide-up {
-  0% {opacity: 0; margin-top: 40px;}
-  100% {opacity: 1; margin-top: 0px}
+  0% {opacity: 0; margin-top: 60px;}
+  100% {opacity: 1; margin-top: 20px}
+}
+
+@keyframes reveal {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 * {
@@ -40,10 +45,12 @@ body {
   grid-column: 2 / 6;
   color: #697E8C;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 .sub-header {
+  animation-name: reveal;
+  animation-duration: 4s;
   grid-column: 2 / 6;
   font-family: 'happytime';
   font-size: 2.2em;
@@ -54,8 +61,8 @@ body {
 
 .quote1 {
   font-family: 'bosque';
-  font-size: 4em;
-  grid-column: 1 / 3;
+  font-size: 6em;
+  grid-column: 1 / 4;
   color: #383b40;
   margin-top: 30vmin;
 }
@@ -63,7 +70,7 @@ body {
   font-family: 'happytime';
   font-size: 1.5em;
   grid-column: 2 / 4;
-  margin-top: -5vmin;
+  margin-top: -8vmin;
   color: #383b40;
 }
 
@@ -239,14 +246,14 @@ body {
 .quote14 {
   font-family: 'bosque';
   font-size: 4em;
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
   color: #383b40;
 }
 .quote-credit14 {
   font-family: 'happytime';
   font-size: 1.5em;
-  grid-column: 3 / 5;
-  margin-top: -7vmin;
+  grid-column: 4 / 6;
+  margin-top: -10vmin;
   color: #383b40;
 }
 
@@ -266,8 +273,8 @@ body {
 
 .quote16 {
   font-family: 'bosque';
-  font-size: 4em;
-  grid-column: 3 / 5;
+  font-size: 6em;
+  grid-column: 2 / 6;
   color: #383b40;
 }
 .quote-credit16 {
@@ -351,14 +358,14 @@ body {
 .quote22 {
   font-family: 'bosque';
   font-size: 4em;
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
   color: #383b40;
 }
 .quote-credit22 {
   font-family: 'happytime';
   font-size: 1.5em;
-  grid-column: 3 / 5;
-  margin-top: -7vmin;
+  grid-column: 4 / 6;
+  margin-top: -10vmin;
   color: #383b40;
 }
 
@@ -413,7 +420,7 @@ body {
 .quote-credit26 {
   font-family: 'happytime';
   font-size: 1.5em;
-  grid-column: 3;
+  grid-column: 3 / 5;
   margin-top: -5vmin;
   color: #383b40;
 }
@@ -421,7 +428,7 @@ body {
 .quote27 {
   font-family: 'bosque';
   font-size: 4em;
-  grid-column: 5 / 7;
+  grid-column: 4 / 7;
   color: #383b40;
 }
 .quote-credit27 {
@@ -441,22 +448,22 @@ body {
 .quote-credit28 {
   font-family: 'happytime';
   font-size: 1.5em;
-  grid-column: 3;
+  grid-column: 3 / 5;
   margin-top: -5vmin;
   color: #383b40;
 }
 
 .quote29 {
   font-family: 'bosque';
-  font-size: 5em;
-  grid-column: 3 / 5;
+  font-size: 9em;
+  grid-column: 3 / 6;
   margin-top: 15vmin;
   color: #383b40;
 }
 .quote-credit29 {
   font-family: 'happytime';
   font-size: 1.5em;
-  grid-column: 4;
-  margin-top: -5vmin;
+  grid-column: 4 / 6;
+  margin-top: -12vmin;
   color: #383b40;
 }
